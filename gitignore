@@ -1,0 +1,38 @@
+# Secrets — JAMAIS COMMITER
+.env
+auth_config.yaml
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Données générées
+data/*.db
+data/cache/
+data/memory_by_country/
+output/reports/*.pdf
+output/reports/*.html
+output/charts/*.png
+output/charts/*.svg
+logs/*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
